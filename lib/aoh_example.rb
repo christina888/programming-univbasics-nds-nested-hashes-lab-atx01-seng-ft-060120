@@ -43,5 +43,5 @@ def aoh_update(aoh, row, column, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
   aoh[row][column] = new_value
-  p new_value
+  p aoh
 end
